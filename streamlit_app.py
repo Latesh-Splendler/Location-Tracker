@@ -1,8 +1,7 @@
 
 import streamlit as st
 import requests
-import folium
-from streamlit_folium import folium_static
+
 
 # Function to get location details
 def get_location_details(phone_number, api_key):
