@@ -15,7 +15,7 @@ def get_location_details(phone_number, api_key):
 # Streamlit UI
 st.title("📍 Phone Number Location Tracker")
 phone_number = st.text_input("Enter Phone Number (with country code):")
-api_key = st.secrets["API_LAYER_KEY"]  # Store API key in Streamlit secrets
+api_key = kH0AfMzrUpmtHs18PXQY2giISbU3dYTI
 
 if st.button("Track Location"):
     if phone_number:
